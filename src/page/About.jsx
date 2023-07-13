@@ -5,21 +5,22 @@ export default function Bio() {
             <h3 className="about-title">À propos</h3>
             <div className="about-content">
                <p className="about-texte">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-                  ex molestiae maiores sint consectetur ad similique repudiandae
-                  libero ea fuga vero veniam neque distinctio quo, culpa velit
-                  nobis, voluptate repellendus?
+                  Passionné de technologie depuis longtemps, je suis constamment
+                  en quête de nouvelles avancées et tendances dans le domaine du
+                  développement web.
                   <br />
+                  Mon intérêt pour la technologie me pousse à rester à jour avec
+                  les dernières innovations, ce qui me permet de créer des
+                  solutions web modernes et efficaces.
                   <br />
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Labore dolorum dignissimos vel nostrum nisi deserunt itaque.
-                  Dolore reiciendis culpa hic.
+                  J'associe mes connaisances de programmation et de construction
+                  pour pouvoir travailler sur des projets de plus grande
+                  envergure qui mêleent développement et construction.
                </p>
-
                <div className="about-circle"></div>
             </div>
 
-            <div className="about-icon">Icon</div>
+            {/* <div className="about-icon">Icon</div> */}
          </div>
       </section>
    );
