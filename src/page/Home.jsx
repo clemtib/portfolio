@@ -72,7 +72,7 @@ export default function Home() {
             onAnimationEnd={handleFirstPageAnimationEnd}
          >
             <div className="title">
-               <h1>Clément TIBERGHIEN</h1>
+               <h1>Clément TIBERGHIEN 2</h1>
                <h2>Développeur Web</h2>
             </div>
 
