@@ -2,6 +2,10 @@
    font-family: "Raleway";
 }
 
+body {
+   overflow-x: hidden;
+}
+
 h3 {
    font-size: 3em;
    color: #13134d;

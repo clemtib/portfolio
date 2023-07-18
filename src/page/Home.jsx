@@ -34,16 +34,22 @@ export default function Home() {
          const dot = document.createElement("div");
          const dotSize = Math.floor(Math.random() * 31) + 5; // Génère une taille aléatoire
          dot.classList.add("white-dot");
-         dot.style.top = `${Math.random() * 100}%`;
-         dot.style.left = `${Math.random() * 100}%`;
-         dot.style.width = `${dotSize}px`; // Ajoute la taille aléatoire au style du rond
-         dot.style.height = `${dotSize}px`; // Ajoute la taille aléatoire au style du rond
-         document.body.appendChild(dot);
+
+         const bullesDiv = document.querySelector(".bulles");
+         const bullesWidth = bullesDiv.offsetWidth;
+         const bullesHeight = bullesDiv.offsetHeight;
+
+         dot.style.top = `${Math.random() * (bullesHeight - dotSize)}px`;
+         dot.style.left = `${Math.random() * (bullesWidth - dotSize)}px`;
+         dot.style.width = `${dotSize}px`;
+         dot.style.height = `${dotSize}px`;
+
+         bullesDiv.appendChild(dot);
 
          // Disparition du rond
          setTimeout(() => {
             dot.remove();
-         }, 8000); // Supprime le rond après 5 secondes
+         }, 8000); // Supprime le rond après 8 secondes
       };
 
       // Apparition de ronds blancs de manière aléatoire
@@ -92,6 +98,7 @@ export default function Home() {
                style={{ color: "#ffffff" }}
             />
          </a>
+         <div className="bulles"></div>
       </section>
    );
 }

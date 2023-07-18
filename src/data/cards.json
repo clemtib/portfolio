@@ -10,7 +10,7 @@
       {
          "title": "Intégration électronique",
          "icon": "fa-microchip",
-         "description": "Création de module élecrtonique avec micro-controleur",
+         "description": "Création de module électronique avec micro-controleur",
          "subtitle": "Compétences clés",
          "skills": ["Arduino", "Raspberry", "Capteur", "Prototypage"]
       },

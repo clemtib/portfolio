@@ -15,7 +15,7 @@ export default function Bio() {
                   <br />
                   J'associe mes connaisances de programmation et de construction
                   pour pouvoir travailler sur des projets de plus grande
-                  envergure qui mêleent développement et construction.
+                  envergure qui mêlent développement et construction.
                </p>
                <div className="about-circle"></div>
             </div>
